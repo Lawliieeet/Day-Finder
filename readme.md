@@ -38,34 +38,31 @@ Leap years are identified using the conditions for divisibility by 4,
 
 ## How to Run
 
-### 1. Clone the repository
+### 1. Run the program
 
-bash git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
+```bash
+python main.py
+```
+### 2. Enter the date
 
-### 2. Enter the project directory
-
-bash cd YOUR-REPOSITORY
-
-### 3. Run the program
-
-bash python main.py
-
-If your system uses python3:
-
-bash python3 main.py
-
-### 4. Enter the date
-
+```text
 The program will ask for the date, month, and year.
-
+```
 Enter each value when prompted.
 
 ## Example
 
-text Enter the date: 29 Enter the month: 9 Enter the year: 2026
+```text
+Input
+
+Enter the date: 29
+Enter the month: 9
+Enter the year: 2026
+
+Output
 
 Tuesday
-
+```
 ## Features
 
 -   Determines the day for a given date, month, and year.
@@ -75,7 +72,4 @@ Tuesday
 -   Runs directly through the command line.
 -   Requires no external Python libraries.
 
-## Author
 
-This project was developed as a Python project based on independently
-derived mathematical reasoning.
